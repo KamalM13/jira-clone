@@ -4,7 +4,7 @@ import { ListWithCards } from "@/types"
 import { List } from "@prisma/client"
 import { ListForm } from "./list-form"
 import { useEffect, useState } from "react"
-import { ListItem } from "./list-items"
+import { ListItem } from "./list-item"
 
 interface ListContainerProps { 
     boardId: string
