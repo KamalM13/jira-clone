@@ -43,7 +43,6 @@ const handler = async (data: InputType): Promise<ReturnType> => {
                 imageFullUrl,
                 imageLinkHtml,
                 imageUserName,
-                
             }
         })
     } catch (error) {

@@ -46,7 +46,7 @@ const BoardIdLayout = async ({
         >
             <BoardNavBar data={board} />
             <div className="absolute inset-0 bg-gradient-to-r from-gray-900 to-gray-900 opacity-30" />
-            <main className="relative pt-30 h-full">
+            <main className="relative pt-40 h-full">
                 {children}
             </main>
         </div>
